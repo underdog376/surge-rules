@@ -1,0 +1,18 @@
+# NAME: Bybit
+# AUTHOR: Vine Brian / Hermes
+# UPDATED: 2026-05-23
+# DOMAIN-SUFFIX: 9
+# TOTAL: 9
+#
+# Surge external rule-set for Bybit.
+# Recommended policy: 💱 Bybit
+
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybit-testnet.com
