@@ -1,11 +1,17 @@
 # NAME: Bybit
 # AUTHOR: Vine Brian / Hermes
 # UPDATED: 2026-05-23
-# DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# DOMAIN-SUFFIX: 13
+# DOMAIN-KEYWORD: 2
+# TOTAL: 15
 #
 # Surge external rule-set for Bybit.
 # Recommended policy: 💱 Bybit
+#
+# Notes:
+# - Put this RULE-SET before generic Crypto.list.
+# - DOMAIN-KEYWORD rules are included because Bybit app/API may use regional
+#   and historical bybit/bytick hostnames not covered by a fixed suffix list.
 
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybitglobal.com
@@ -16,3 +22,9 @@ DOMAIN-SUFFIX,bybit.tr
 DOMAIN-SUFFIX,bybitgeorgia.ge
 DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,bybit-testnet.com
+DOMAIN-SUFFIX,bybdc.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byassets.com
+DOMAIN-KEYWORD,bybit
+DOMAIN-KEYWORD,bytick
