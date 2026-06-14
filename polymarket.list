@@ -1,2 +1,22 @@
 # Polymarket Surge Rules
+# Updated: 2026-06-14 - Complete domain coverage
+# Usage: RULE-SET,https://raw.githubusercontent.com/underdog376/surge-rules/main/polymarket.list,🇭🇰HK
+
+# === Core domains (covers all subdomains) ===
 DOMAIN-SUFFIX,polymarket.com
+
+# === WebSocket real-time data ===
+# ws-api.polymarket.com, rtds endpoints — already covered by DOMAIN-SUFFIX above
+
+# === External data/infra partners ===
+# Goldsky (on-chain data indexing, Turbo Pipelines)
+DOMAIN-SUFFIX,goldsky.com
+
+# === Wallet / blockchain infra ===
+# WalletConnect relay (wallet connection)
+DOMAIN-SUFFIX,walletconnect.com
+
+# === Notes ===
+# polymarket.com DOMAIN-SUFFIX covers: www, clob, gamma-api, data-api,
+# ws-api, static, legacy-docs, docs, builders — all subdomains
+# polygon-rpc.com is NOT included (general Polygon RPC, not Polymarket-specific)
